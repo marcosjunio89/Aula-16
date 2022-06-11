@@ -35,17 +35,44 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-self: center;
-    height: 700px;
+    align-items: center;
+    height: 750px;
+    gap: 15px;
 }
 
-form {
+main h2 {
+    font-size: 3em;
+    margin-bottom: 25px;
+    margin-top: -25px;
+}
+
+main form {
     display: flex;
     flex-direction: column;
+    gap: 5px;
+}
+
+form input {
+    font-size: 2em;
+    border-radius: 15px;
+
+}
+
+form button {
+    font-size: 2em;
+    margin-top: 15px;
+    background-color: #1CD1B0;
+    border-radius: 15px;
+}
+
+main p {
+    color: black;
+    font-size: 1.3em;
 }
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
     height: 61px;
