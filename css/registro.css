@@ -56,6 +56,9 @@ main {
     align-items: center;
     align-self: center;
     height: 772px;
+    background-image: url('/img/2.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 .p {
@@ -71,10 +74,10 @@ form {
     justify-content: center;
     align-items: center;
     align-self: center;
-    background-color: #00669F;
     width: 400px;
     height: 400px;
     gap: 7.5px;
+    margin-bottom: 80px;
 }
 
 form h2 {
@@ -89,7 +92,6 @@ form input {
     display: flex;
     flex-direction: column;
     gap: 7px;
-    background-color: #00669F;
 }
 
 button[type=reset] {
